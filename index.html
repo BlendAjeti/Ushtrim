@@ -13,8 +13,7 @@
         font-family: 'Pacifico', cursive;
         font-family: 'Poppins', sans-serif
     }
-    input{ display: block;}
-    
+    input{ display: block;}    
 
 </style>
 <body>
@@ -49,7 +48,7 @@
     </table>
     <br><br>
     <table width="1000" align="center">
-        <form action="#" autocomplete="off">
+        <form action="GET" autocomplete="off" >
             <tr>
                 <td><h2>Porosit këtu</h2></td>
                 <td><h2>Zgjidh menu</h2></td>
@@ -61,7 +60,7 @@
                     <input type="checkbox" name="menu" id="Big Boxes" value="Big Boxes" class="food">
                     <label for="Big Boxes">Big Boxes</label></td>
                     <td>
-                        <form action="#" >
+                        <form action="GET" autocomplete="off" >
                             <label for="drinks">Drinks:</label>
                             <select name="drinks" id="drinks">
                                 <option value="">Zgjidh pijet</option>
@@ -107,7 +106,7 @@
                     <label for="Mac & Cheese Bowl">Mac & Cheese Bowl</label></td>
                 </td>
                 <td> <label for="Tips"> Bakshish:</label><input type="number" name="Tips" min="0" max="100" ></td>
-                <td><input type="submit" value="Porosit" required></td>
+                <td><button type="button" >Porosit</button></td>
             </tr>
             
         </form>
@@ -115,6 +114,13 @@
     <div align="center">
         <h2>Pikat tona në qytete</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16651.10760174758!2d21.460300187728937!3d42.459062627436715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548ddec2c45f17%3A0xa37f96f3b44be6a1!2sKFC%20Kosovo!5e0!3m2!1sen!2srs!4v1670680496236!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> <br>
+    <div align="center">
+        <h2>Help People-Fundraiser</h2>
+        <label for="fundraiser">Objective:</label>
+        <progress id="fundraiser" value="65" max="100"> </progress>
+
+
     </div>
     
    
