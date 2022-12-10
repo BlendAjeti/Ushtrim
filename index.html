@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushtrime</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Pacifico&family=Poppins:ital,wght@1,200;1,300&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Poppins', sans-serif
+    }
+    input{ display: block;}
+    
+
+</style>
+<body>
+    <table width="990" align="center">
+        <tr>
+            <td> <h1>KFC</h1></td>
+        </tr>
+        <tr>
+            <td><h2>Menu-ja e ushqimit !</h2></td>
+        </tr>
+        <tr>
+            <td> <img src="./kfc1.jpg" alt="menu-1"></td>
+            <td><img src="./kfc2.jpg" alt="menu-2"></td>
+            <td><img src="./kfc3.jpg" alt="menu-3"></td>
+        </tr>
+        <tr>
+            <td> <strong>Big Boxes 2.99$</strong></td>
+            <td><strong>Big Deal 3.50$</strong></td>
+            <td><strong>Mac & Cheese Bowl 5.50$</strong></td>
+        </tr>
+        <tr>
+            <td><cite>Review:Big Box Meals include individual mashed potatoes with gravy, coleslaw, biscuit, and medium drink. As the name indicates, these are larger meals.</cite></td>
+            <td><cite>Review:These are your family style meals that serve multiple people. You can feed the fam, frat house, or buy yourself dinner for the week.These are your family style meals that serve multiple people.</cite></td>
+            <td><cite>Review: It’s not the best mac and cheese, but even a bad mac and cheese tastes pretty good. The cheddar sauce could be a little more creamy, but it has a quality cheddar flavor. </cite></td>
+        </tr> <br> <br>
+        <tr>
+            <td><a href="https://kfcbd.com/menu" target="_blank">Read more</a></td>
+            <td><a href="https://kfcbd.com/menu" target="_blank">Read more</a></td>
+            <td><a href="https://kfcbd.com/menu" target="_blank">Read more</a></td>
+        </tr> 
+
+    </table>
+    <br><br>
+    <table width="1000" align="center">
+        <form action="#" autocomplete="off">
+            <tr>
+                <td><h2>Porosit këtu</h2></td>
+                <td><h2>Zgjidh menu</h2></td>
+                <td><h2>Pijet</h2></td>
+            </tr>
+            <tr>
+                <td>Emri dhe mbiemri :<input type="text" name="Emri dhe Mbiemri" placeholder="Filan Fisteku" maxlength="20" minlength="10" required pattern="[a-z]"{12} "></td>
+                <td>
+                    <input type="checkbox" name="menu" id="Big Boxes" value="Big Boxes" class="food">
+                    <label for="Big Boxes">Big Boxes</label></td>
+                    <td>
+                        <form action="#" >
+                            <label for="drinks">Drinks:</label>
+                            <select name="drinks" id="drinks">
+                                <option value="">Zgjidh pijet</option>
+                                <optgroup label="Pijet e gazuara">
+                                    <option value="Coca Cola">Coca Cola</option>
+                                    <option value="Fanta">Fanta</option>
+                                    <option value="Sprite">Sprite</option>
+                                    <option value="Pepsi">Pepsi</option>
+                                    <option value="7-Up">7-Up</option>
+                                </optgroup>
+                                <optgroup label="Lëngjet">
+                                    <option value="Lëng Dredhëze">Lëng Dredhëze</option>
+                                    <option value="Lëng Vishnje">Lëng Vishnje</option>
+                                    <option value="Lëng Pjeshke">Lëng Pjeshke</option>
+                                    <option value="Lëng Portokalli">Lëng Portokalli</option>
+                                    <option value="Lëng Fruta Mali">Lëng Fruta Mali</option>
+
+                                </optgroup>
+                                <optgroup label="ujërat">
+                                    <option value="Ujë mineral">Ujë mineral</option>
+                                    <option value="Ujë Dea">Ujë Dea</option>
+                                    <option value="Ujë Rosa">Ujë Rosa</option>
+                                    <option value="Ujë i gazuar">Ujë i gazuar</option>
+                                    <option value="Ujë Heba">Ujë Heba</option>
+                                </optgroup>
+                            </select>
+                        </form>
+
+                    </td>
+            </tr>
+            <tr>
+                <td>Email:<input type="email" name="email" placeholder="psh.filan@yahoo.com" ></td>
+                <td><input type="checkbox" name="menu" id="Big Deal" value="Big Deal" class="food">
+                    <label for="Big Deal">Big Deal</label></td></td>
+                    <td> <label for="Porcionet"> Sa porcione dëshironi:</label><input type="number" name="Porcionet" min="0" max="10" ></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Numri i telefonit</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}=[0-9]{3}" value="+381" >
+                </td>
+                <td>
+                    <input type="checkbox" name="menu" id="Mac & Cheese Bowl" value="Mac & Cheese Bowl" class="food">
+                    <label for="Mac & Cheese Bowl">Mac & Cheese Bowl</label></td>
+                </td>
+                <td> <label for="Tips"> Bakshish:</label><input type="number" name="Tips" min="0" max="100" ></td>
+                <td><input type="submit" value="Porosit" required></td>
+            </tr>
+            
+        </form>
+    </table> <br> <br> <br>
+    <div align="center">
+        <h2>Pikat tona në qytete</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16651.10760174758!2d21.460300187728937!3d42.459062627436715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548ddec2c45f17%3A0xa37f96f3b44be6a1!2sKFC%20Kosovo!5e0!3m2!1sen!2srs!4v1670680496236!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+   
+
+    
+</body>
+</html>
